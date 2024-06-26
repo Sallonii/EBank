@@ -1,0 +1,24 @@
+.home-main-container {
+  background-color: #183b56;
+  min-height: 100vh;
+  padding: 40px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logout-button {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
