@@ -5,7 +5,7 @@ import Cookies from 'js-cookie'
 import './index.css'
 
 class LoginRoute extends Component {
-  state = {userId: 0, pin: 0, isInvalid: false, errorMsg: ''}
+  state = {userId: '', pin: '', isInvalid: false, errorMsg: ''}
 
   onChangingUserId = event => {
     this.setState({userId: event.target.value})
